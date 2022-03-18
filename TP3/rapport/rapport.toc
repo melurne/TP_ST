@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {2}Manipulations}{3}{}%
 \contentsline {subsection}{\numberline {2.1}Etalonage}{3}{}%
 \contentsline {subsection}{\numberline {2.2}Isolations}{3}{}%
-\contentsline {subsection}{\numberline {2.3}Pertes de conversion}{3}{}%
-\contentsline {section}{\numberline {3}Conclusion}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Pertes de conversion}{4}{}%
+\contentsline {section}{\numberline {3}Conclusion}{6}{}%

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.3.16)  18 MAR 2022 12:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.3.16)  18 MAR 2022 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/maxence/TP_ST/TP2/rapport/rapport.tex
-(/home/maxence/TP_ST/TP2/rapport/rapport.tex
+**/home/maxence/TP_ST/TP3/rapport/rapport.tex
+(/home/maxence/TP_ST/TP3/rapport/rapport.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -125,7 +125,7 @@ Writing index file rapport.idx
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box51
-) (/home/maxence/TP_ST/TP2/rapport/rapport.aux)
+) (/home/maxence/TP_ST/TP3/rapport/rapport.aux)
 \openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -174,59 +174,55 @@ Package pdftex.def Info: ~/templates//logouniv.png  used on input line 12.
 (pdftex.def)             Requested size: 170.71652pt x 72.2147pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/maxence/templates//logopopo.png (PNG copy)> </home/maxence/templates//logouniv.png>] (/home/maxence/TP_ST/TP2/rapport/rapport.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/maxence/templates//logopopo.png (PNG copy)> </home/maxence/templates//logouniv.png>] (/home/maxence/TP_ST/TP3/rapport/rapport.toc)
 \tf@toc=\write4
 \openout4 = `rapport.toc'.
 
  [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
+<../images//manip1.jpg, id=19, 1329.96875pt x 1081.03876pt>
+File: ../images//manip1.jpg Graphic file (type jpg)
+<use ../images//manip1.jpg>
+Package pdftex.def Info: ../images//manip1.jpg  used on input line 51.
+(pdftex.def)             Requested size: 227.62204pt x 185.0113pt.
+<../images//pertesfIF.png, id=20, 602.25pt x 372.39125pt>
+File: ../images//pertesfIF.png Graphic file (type png)
+<use ../images//pertesfIF.png>
+Package pdftex.def Info: ../images//pertesfIF.png  used on input line 70.
+(pdftex.def)             Requested size: 284.52756pt x 175.93874pt.
 
- []
 
-[3]
-<../images//calibrage.png, id=29, 592.03584pt x 444.02689pt>
-File: ../images//calibrage.png Graphic file (type png)
-<use ../images//calibrage.png>
-Package pdftex.def Info: ../images//calibrage.png  used on input line 131.
-(pdftex.def)             Requested size: 270.30118pt x 202.72363pt.
- [4 </home/maxence/TP_ST/TP2/rapport/../images//calibrage.png>]
-<../images//S14(bleu)-S13(rouge).png, id=35, 592.03584pt x 444.02689pt>
-File: ../images//S14(bleu)-S13(rouge).png Graphic file (type png)
-<use ../images//S14(bleu)-S13(rouge).png>
-Package pdftex.def Info: ../images//S14(bleu)-S13(rouge).png  used on input line 174.
-(pdftex.def)             Requested size: 284.52756pt x 213.39471pt.
- [5]
-<../images//Coupleur.png, id=40, 497.86pt x 418.56375pt>
-File: ../images//Coupleur.png Graphic file (type png)
-<use ../images//Coupleur.png>
-Package pdftex.def Info: ../images//Coupleur.png  used on input line 187.
-(pdftex.def)             Requested size: 184.9429pt x 155.48567pt.
- [6 </home/maxence/TP_ST/TP2/rapport/../images//S14(bleu)-S13(rouge).png> </home/maxence/TP_ST/TP2/rapport/../images//Coupleur.png>] [7]
-<../images//S11AMpliComparaison.png, id=50, 592.03584pt x 444.02689pt>
-File: ../images//S11AMpliComparaison.png Graphic file (type png)
-<use ../images//S11AMpliComparaison.png>
-Package pdftex.def Info: ../images//S11AMpliComparaison.png  used on input line 231.
-(pdftex.def)             Requested size: 284.52756pt x 213.39471pt.
- [8 </home/maxence/TP_ST/TP2/rapport/../images//S11AMpliComparaison.png>] [9]
-<../images//BandePassante1dB.png, id=58, 592.03584pt x 444.02689pt>
-File: ../images//BandePassante1dB.png Graphic file (type png)
-<use ../images//BandePassante1dB.png>
-Package pdftex.def Info: ../images//BandePassante1dB.png  used on input line 253.
-(pdftex.def)             Requested size: 284.52756pt x 213.39471pt.
- [10 </home/maxence/TP_ST/TP2/rapport/../images//BandePassante1dB.png>] (/home/maxence/TP_ST/TP2/rapport/rapport.aux) ) 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../images//manip2.png, id=21, 602.25pt x 372.39125pt>
+File: ../images//manip2.png Graphic file (type png)
+<use ../images//manip2.png>
+Package pdftex.def Info: ../images//manip2.png  used on input line 76.
+(pdftex.def)             Requested size: 284.52756pt x 175.93874pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../images//ptCompression.png, id=22, 602.25pt x 372.39125pt>
+File: ../images//ptCompression.png Graphic file (type png)
+<use ../images//ptCompression.png>
+Package pdftex.def Info: ../images//ptCompression.png  used on input line 82.
+(pdftex.def)             Requested size: 284.52756pt x 175.93874pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 </home/maxence/TP_ST/TP3/rapport/../images//manip1.jpg>] [4 </home/maxence/TP_ST/TP3/rapport/../images//pertesfIF.png>] [5 </home/maxence/TP_ST/TP3/rapport/../images//manip2.png> </home/maxence/TP_ST/TP3/rapport/../images//ptCompression.png>] (/home/maxence/TP_ST/TP3/rapport/rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 3261 strings out of 481252
- 46851 string characters out of 5915888
- 327467 words of memory out of 5000000
- 20192 multiletter control sequences out of 15000+600000
- 409303 words of font info for 47 fonts, out of 8000000 for 9000
+ 3247 strings out of 481252
+ 46438 string characters out of 5915888
+ 322465 words of memory out of 5000000
+ 20179 multiletter control sequences out of 15000+600000
+ 408966 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,10n,74p,258b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/maxence/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on /home/maxence/TP_ST/TP2/rapport/rapport.pdf (11 pages, 289746 bytes).
+ 68i,5n,74p,256b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on /home/maxence/TP_ST/TP3/rapport/rapport.pdf (6 pages, 930515 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.3.16)  18 MAR 2022 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.3.16)  24 MAR 2022 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -178,52 +178,58 @@ Package pdftex.def Info: ~/templates//logouniv.png  used on input line 12.
 \tf@toc=\write4
 \openout4 = `rapport.toc'.
 
- [1] [2]
-<../images//manip1.jpg, id=19, 1329.96875pt x 1081.03876pt>
+ [1]
+<../images//fig1.png, id=17, 392.46625pt x 223.83624pt>
+File: ../images//fig1.png Graphic file (type png)
+<use ../images//fig1.png>
+Package pdftex.def Info: ../images//fig1.png  used on input line 45.
+(pdftex.def)             Requested size: 227.62204pt x 129.82169pt.
+ [2 </home/maxence/TP_ST/TP3/rapport/../images//fig1.png>] [3]
+<../images//manip1.jpg, id=28, 1329.96875pt x 1081.03876pt>
 File: ../images//manip1.jpg Graphic file (type jpg)
 <use ../images//manip1.jpg>
-Package pdftex.def Info: ../images//manip1.jpg  used on input line 54.
+Package pdftex.def Info: ../images//manip1.jpg  used on input line 106.
 (pdftex.def)             Requested size: 227.62204pt x 185.0113pt.
- [3 </home/maxence/TP_ST/TP3/rapport/../images//manip1.jpg>]
-<../images//pertesfIF.png, id=27, 602.25pt x 372.39125pt>
+ [4 </home/maxence/TP_ST/TP3/rapport/../images//manip1.jpg>]
+<../images//pertesfIF.png, id=33, 602.25pt x 372.39125pt>
 File: ../images//pertesfIF.png Graphic file (type png)
 <use ../images//pertesfIF.png>
-Package pdftex.def Info: ../images//pertesfIF.png  used on input line 78.
+Package pdftex.def Info: ../images//pertesfIF.png  used on input line 130.
 (pdftex.def)             Requested size: 284.52756pt x 175.93874pt.
-<../images//manip2.png, id=28, 602.25pt x 372.39125pt>
+<../images//manip2.png, id=34, 602.25pt x 372.39125pt>
 File: ../images//manip2.png Graphic file (type png)
 <use ../images//manip2.png>
-Package pdftex.def Info: ../images//manip2.png  used on input line 86.
+Package pdftex.def Info: ../images//manip2.png  used on input line 138.
 (pdftex.def)             Requested size: 284.52756pt x 175.93874pt.
-<../images//ptCompression.png, id=29, 602.25pt x 372.39125pt>
+<../images//ptCompression.png, id=35, 602.25pt x 372.39125pt>
 File: ../images//ptCompression.png Graphic file (type png)
 <use ../images//ptCompression.png>
-Package pdftex.def Info: ../images//ptCompression.png  used on input line 95.
+Package pdftex.def Info: ../images//ptCompression.png  used on input line 147.
 (pdftex.def)             Requested size: 284.52756pt x 175.93874pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 </home/maxence/TP_ST/TP3/rapport/../images//pertesfIF.png> </home/maxence/TP_ST/TP3/rapport/../images//manip2.png>]
-<../images//manip4.jpg, id=36, 1476.51625pt x 1147.28625pt>
+[5 </home/maxence/TP_ST/TP3/rapport/../images//pertesfIF.png> </home/maxence/TP_ST/TP3/rapport/../images//manip2.png>]
+<../images//manip4.jpg, id=42, 1476.51625pt x 1147.28625pt>
 File: ../images//manip4.jpg Graphic file (type jpg)
 <use ../images//manip4.jpg>
-Package pdftex.def Info: ../images//manip4.jpg  used on input line 104.
+Package pdftex.def Info: ../images//manip4.jpg  used on input line 156.
 (pdftex.def)             Requested size: 256.0748pt x 198.97496pt.
- [5 </home/maxence/TP_ST/TP3/rapport/../images//ptCompression.png> </home/maxence/TP_ST/TP3/rapport/../images//manip4.jpg>] [6] (/home/maxence/TP_ST/TP3/rapport/rapport.aux) ) 
+ [6 </home/maxence/TP_ST/TP3/rapport/../images//ptCompression.png> </home/maxence/TP_ST/TP3/rapport/../images//manip4.jpg>] [7] (/home/maxence/TP_ST/TP3/rapport/rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 3255 strings out of 481252
- 46589 string characters out of 5915888
- 322465 words of memory out of 5000000
- 20186 multiletter control sequences out of 15000+600000
+ 3262 strings out of 481252
+ 46719 string characters out of 5915888
+ 325465 words of memory out of 5000000
+ 20192 multiletter control sequences out of 15000+600000
  408966 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,5n,74p,256b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on /home/maxence/TP_ST/TP3/rapport/rapport.pdf (7 pages, 1747317 bytes).
+ 68i,6n,74p,256b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on /home/maxence/TP_ST/TP3/rapport/rapport.pdf (8 pages, 1794406 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

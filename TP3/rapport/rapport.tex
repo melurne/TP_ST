@@ -29,13 +29,65 @@
 	\vspace{5cm}
 	
 	\begin{abstract}
-	
+	Le but de ce TP est de caractèriser un mélangeur à diode simple. Pour ce la on dispose d'un générateur
+	2.5 GHz qui fera office de voie RF et d'un oscillateur programable qui nous servira de voie OL.
+	Nous allons tracer les caractèristiques du mélangeur en fonction de la fréquence RF et OL pour les comparer à la datasheet.
  	\end{abstract}
 
 	\newpage
 
 	\section{Préparation}
 	
+	\paragraph{1.}
+	 On donne le schéma équivalent du mélangeur à diode:
+	 \begin{figure}[h]
+		 \centering
+		 \includegraphics[width=8cm]{fig1.png}
+		 \caption{Schéma équivalent du mélangeur à diode}
+	 \end{figure}
+
+	Si on néglige la chute de tension aux bornes de la résistance, on a:
+	\[ I_{d}=I_{s}(e{q\frac{V_{OL}+V_{RF}}{kT}} -1) \]
+
+	En linéarisant l'équation, on obtient:
+	\[ I_{d} = a_{0} + a_{1}(V_{OL} + V_{RF}) + a_{2}(V_{OL} + V_{RF})^{2} + a_{3}(V_{OL} + V_{RF})^{3} + \cdots \]
+
+	\paragraph{2.}
+	Supposont $ V_{RF} = |V_{RF}|sin(2 \pi f_{RF}) $ et $ V_{OL} = |V_{OL}|sin(2 \pi f_{OL}) $
+
+	On détermine les fréquences associées à chaqun des termes de $I_{d}$:
+
+	\paragraph{A l'ordre 1:} 
+	On a simplement $V_{OL} + V_{RF}$, on a donc une raie à $f_{OL}$ et une à $f_{RF}$.
+	
+	\paragraph{A l'ordre 2:}
+
+	On a:
+	\[ (V_{OL} + V_{RF})^{2} = V_{OL}^{2} + 2V_{OL}V_{RF} + V_{RF}^{2} \]
+
+	\[ V_{OL}^{2} = \frac{|V_{OL}|^{2}}{2} sin(2 \pi 2 f_{OL}) \]
+	Ce qui donne une raie à $2f_{OL}$.\\
+	On a le même calcul pour $V_{RF}^{2}$ qui donne une raie à $2f_{RF}$.
+
+	\[ 2 V_{OL} V_{RF} = |V_{OL}||V_{RF}|(cos(2 \pi (f_{OL} - f_{RF})) - cos(2 \pi (f_{OL} + f_{RF}))) \]
+	 Soit une raie à $f_{OL}-f_{RF}$ et une à $f_{OL}+f_{RF}$
+
+	\paragraph{A l'ordre 3:}
+	On a:
+	\[ (V_{OL} + V_{RF})^{3} = V_{OL}^{3} + 3V_{OL}^{2}V_{RF} + 3V_{OL}V_{RF}^{2} + V_{RF}^{3} \]
+	\[ V_{OL}^{3} = \frac{|V_{OL}|^{3}}{2} ( sin(2 \pi f_{OL}) - cos(2 \pi 2 f_{OL}) sin(2 \pi f_{OL}) ) \]
+	or \[ cos(2 \pi 2 f_{OL}) sin(2 \pi f_{OL}) = \frac{1}{2} ( sin(2 \pi 3 f_{OL}) - sin(2 \pi f_{OL}) ) \]
+	Soit une raie à $3 f_{OL}$.
+	On trouve de même une raie à $3 f_{RF}$.
+
+	\[ 3 V_{OL}^{2} * V_{RF} = \frac{3 |V_{OL}|^{2} |V_{RF}|}{2} (sin(2 \pi f_{RF}) - cos(2 \pi 2 f_{OL}) sin(2 \pi f_{RF}) ) \]
+	\[ cos(2 \pi 2 f_{OL}) sin(2 \pi f_{RF}) = \frac{1}{2} (sin(2 \pi ( 2 f_{OL} + f_{RF})) - sin(2 \pi (2 f_{OL} + f_{RF})) ) \]
+	On a donc deux raies à $2 f_{OL} + f_{RF}$ et $2 f_{OL} - f_{RF}$.
+
+	De même pour le terme $3 V_{OL} * V_{RF}^{2}$ on obtient deux raies à $ 2 f_{RF} + f_{OL} $ et  $ 2 f_{RF} - f_{OL} $.
+
+	Pour une utilisation en down converter, la raie qui nous intéresse est cele à $ f_{OL} + f_{RF} $ à l'ordre 2.
+
 	\newpage
 
 	\section{Manipulations}
@@ -107,5 +159,9 @@
 
 	\newpage
 	\section{Conclusion}
+
+	Nous avons caractèrisé notre mélangeur par ses pertes et nous avons pu obtenir des graphs qui corroborent ceux de la datasheet.
+	On a pu voir que la caractèrisation complète ne nécessite pas beaucoup de matériel (si on omet l'analyseur de spèctre qui n'est pas tout à fait un équipement commun).
+	
 
 \end{document}

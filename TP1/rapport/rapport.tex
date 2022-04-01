@@ -1,0 +1,113 @@
+\documentclass[oneside,a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+\graphicspath{{~/templates/}, {../images/}}
+
+\makeindex
+\begin{document}
+	\begin{titlepage}
+		\includegraphics[width=4cm]{logopopo.png}
+		\hspace*{\fill}
+		\includegraphics[width=6cm]{logouniv.png}
+		
+		\begin{center}
+			\vspace{1cm}
+			\textbf{TP Support de Transmission}\\
+			\textbf{Oscillateur microonde}\\
+			\vspace{1cm}
+			\textbf{Maxence LAURENT, Thibault VOLLERIN, Maxence NEUS}\\
+			\vspace{3cm}
+			%\includegraphics[width=13cm]{titlepage.png}\\
+			\vspace{\fill}
+			\textbf{Mars 2022}\\
+		\end{center}
+	\end{titlepage}
+	
+	\tableofcontents
+	
+	\vspace{5cm}
+	
+	\begin{abstract}
+	
+	\end{abstract}
+
+	\newpage
+
+	\section{Préparation}
+	
+	
+
+	\newpage
+
+	\section{Manipulations}
+
+	\subsection*{Paramètres du montage}
+	$ f_{0} = 6 GHz $.\\
+
+
+	$ P_{Wattmetre} = 4.2 dBm $ soit\\
+	$ P_{0} = P_{Wattmetre} + 0.6 dBm + 10 dBm = 14.8 dBm $ \\
+
+
+	$ P_{Analyseur de spectre} = 12.6 dBm $ soit \\
+	$ P_{0} = P_{Analyseur de spectre} + 2* 0.6 dBm = 13.8 dBm $\\
+
+
+	$ P_{0 Analyseur de spectre} < P_{0 Wattmetre} $ Car l'analyseur de spectre mesure la puissance à une seule fréquence, alors que le Wattmetre mesure la puissance totale du signal.\\
+
+	$ \eta = \frac{P_{out}}{P_{in}} $
+	\[ P_{in} = U*I = 15*0.46 = 6.9mW \]
+	On prendra $P_{out} = P_{0 Analyseur de spectre} $ pour avoir le rendement à $ f_{0} $.
+
+	\[ \eta = \frac{10^{\frac{13.8}{10}}}{6.9} = 0.29 \]
+
+	\subsection{Pureté spectrale}
+
+	\paragraph*{Bruit de modulation de phase}
+
+	pic central $ f_{0} = 6.000105 GHz P = 13.8 dBm $\\
+	\[ f = f_{0} + 2KHz P = -13.41 dBm \]
+	\[ f = f_{0} + 5KHz P = -40.17 dBm \]
+	\[ f = f_{0} + 10KHz P = -46 dBm \]
+
+	On calcule $ \frac{\frac{P_{B}}{P_{0}}}{\Delta f} $ pour nos valeurs de $ f_{m} $
+	\begin{itemize}
+		\item $ f_{m} = 2kHz \rightarrow \frac{\frac{P_{B}}{P_{0}}}{\Delta f} = -0.027 dBc/Hz $ 
+		\item $ f_{m} = 5kHz \rightarrow \frac{\frac{P_{B}}{P_{0}}}{\Delta f} = -0.053 dBc/Hz $
+		\item $ f_{m} = 10KHz \rightarrow \frac{\frac{P_{B}}{P_{0}}}{\Delta f} = -0.059 dBc/Hz $
+	\end{itemize}
+
+	\paragraph*{Distortion harmonique}
+
+	On peut lire sur l'analyseur de spectre les deux premières armoniques:
+	\begin{itemize}
+		\item $ n = 2 \rightarrow -25.4 dBm $
+		\item $ n = 3 \rightarrow -11.1 dBm $
+	\end{itemize}
+	\[ D_{h} = \frac{\sum_{n = 2}^{\infty} P_{n}}{P_{0}} = 0.3 \% \]
+
+	\subsection{Stabilité de l'oscillateur}
+
+	\paragraph*{Facteur de pulling} \paragraph{}
+
+	\[ f_{min} = 5.999483 GHz; f_{max} = 5.999898 \]
+	donc $ \Delta f_{0} = 415 kHz $
+
+	\paragraph*{Synchronisation d'un oscillateur}\paragraph*{}
+
+	\[ f_{s_{min}} = 6.000364 GHz; f_{s_{max}} = 6.000560 GHz \]
+	donc 
+	\[ \Delta f_{s} = 196 kHz \]
+
+	avec 
+	\[ f_{0} = 6.000537 GHz, P_{0} = 12.6 dBm, P_{gene} = 2.6 dBm \]
+
+	Donc on peut calculer $ Q_{ext} = 1938 $:
+
+
+	\newpage
+	\section{Conclusion}
+			
+
+\end{document}
